@@ -2,6 +2,10 @@
   display: none;
 }
 
+#animal-display {
+  display: none;
+}
+
 .jumbotron {
   /*min-height: 550px;*/
   background: url("../img/dog.jpg") no-repeat center center;
@@ -18,4 +22,16 @@
 
 #options {
   margin-top: 13%;
+}
+
+.row {
+  height: 400px;
+}
+.col-xs-4 {
+  border: 1px solid red;
+  width: 30%;
+}
+
+.col-xs-4 img {
+  width: 100%;
 }
