@@ -1,1 +1,21 @@
-/*This file is for your custom css.  All yours*/
+.new-animal {
+  display: none;
+}
+
+.jumbotron {
+  /*min-height: 550px;*/
+  background: url("../img/dog.jpg") no-repeat center center;
+  background-size: cover;
+  padding-top: 20%;
+  padding-bottom: 25%;
+}
+
+#jumbotron-text {
+  margin-top: -20%;
+  text-align: center;
+  color: white;
+}
+
+#options {
+  margin-top: 13%;
+}
